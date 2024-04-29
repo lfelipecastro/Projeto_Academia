@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(
+    background-image: linear-gradient(to right,
         rgb(77,91,171),
         rgb(46,74,234)  
     );
@@ -12,6 +12,8 @@ body {
 }
 
 .login-container{
+    height: 50vh;
+    width: 45vh;
     border-radius: 0.2em;
     background-color: white;
     padding: 0em 1em 1em 1em;
@@ -21,6 +23,12 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
+#login-title{
+    font-size: 1.5em;
+    width: 30vh;
+    height: 5vh;
+}
+
 #login-info {
     display: flex;
     flex-direction: column;
@@ -28,8 +36,10 @@ body {
 
 .botão {
     background-color: rgb(235, 189, 47);
-    width: 40%;
+    width: 15vh;
+    height: 6vh;
     border: 0;
+    font-size: 0.8em;
     border-radius: 0.3em;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     padding: 0.4em;
@@ -45,15 +55,19 @@ body {
 }
 
 #email-login{
+    width: 35vh;
+    height: 4vh;
     text-align: center;
-    font-size: 0.7em;
+    font-size: 1em;
     padding: 0.25em;
 }
 
 #senha-login{
+    width: 35vh;
+    height: 4vh;
     margin: 1em 0em 1em 0em;
     text-align: center;
-    font-size: 0.7em;
+    font-size: 1em;
     padding: 0.25em;
 }
 
@@ -61,13 +75,13 @@ body {
     background-color: inherit;
     border: 0;
     margin-top: 0.8em;
-    font-size: 0.7em;
+    font-size: 1em;
     color: #2E4AEA;
 }
 
 #esqueci-login{
     background-color: inherit;
     border: 0;
-    font-size: 0.7em;
+    font-size: 1em;
     color: #2E4AEA;
 }
